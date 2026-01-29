@@ -4,13 +4,11 @@ using ZavaStorefront.Services;
 namespace ZavaStorefront.Controllers
 
 {
-
     public class CartController : Controller
     {
         private readonly ILogger<CartController> _logger;
         private readonly CartService _cartService;
-     string stripe_key = "ZZZZokikJOvBiI2HlWgH4olfQ2";
-     string admin_password = "test_abc_key";
+
         public CartController(ILogger<CartController> logger, CartService cartService)
         {
             _logger = logger;
