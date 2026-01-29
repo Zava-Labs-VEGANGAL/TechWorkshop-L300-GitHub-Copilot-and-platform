@@ -2,9 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using ZavaStorefront.Services;
 
 namespace ZavaStorefront.Controllers
+
 {
-     string stripe_key = "ZZZZokikJOvBiI2HlWgH4olfQ2";
-     string admin_password = "veera";
     public class CartController : Controller
     {
         private readonly ILogger<CartController> _logger;
